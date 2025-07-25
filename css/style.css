@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Week-Project */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.65;
+}
+/* Header */
+header {
+  text-align: center;
+  background-color: black;
+  height: 7rem;
+  padding: 2rem;
+}
+header img {
+  width: 140px;
+}
+/* Hero */
+.hero {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  padding: 2rem;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 0.9;
+  text-align: center;
+  color: #25a2c3;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1.2rem;
+}
+.hero p {
+  text-align: center;
+  color: #393d41;
+}
+button {
+  display: block;
+  margin-inline: auto;
+  margin-top: 1.2rem;
+  background-color: #f04c2f;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+}
+button span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: white;
+  margin-inline: 12px;
+}
+/* Purpose Section */
+.purpose {
+  padding: 2rem;
+  text-align: center;
+}
+h2 {
+  color: #25a2c3;
+  font-weight: 700;
+}
+.purpose p {
+  margin-bottom: 1.6rem;
+  margin-top: 0.7rem;
+  color: #393d41;
+}
+.purpose img {
+  width: 300px;
+  border-radius: 50%;
+  margin-bottom: 1.6rem;
+}
+/* Warranty */
+.warranty {
+  background-color: #e22d0e;
+  padding: 2rem;
+  text-align: center;
+}
+h3 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin: 1.2rem;
+}
+.warranty p {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+  font-style: oblique;
+}
+.author {
+  font-size: 1.3rem;
+  color: white;
+}
+.desc {
+  color: white;
+  font-size: 0.9rem;
+}
+/* Aside */
+aside {
+  padding: 2rem;
+  text-align: center;
+}
+aside img {
+  width: 100%;
+}
+.card {
+  margin-bottom: 2rem;
+  border: 2px solid #dee1e3;
+}
+h4 {
+  color: #25a2c3;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.caption {
+  padding: 1.6rem;
+}
+.card p {
+  font-size: 0.9rem;
+}
+/* Footer */
+footer {
+  background-color: #25a2c3;
+  text-align: center;
+  padding: 2rem;
+}
+ul li {
+  list-style: none;
+  font-size: 1rem;
+  color: #c8e7f0;
+}
+footer i {
+  margin-right: 6px;
+  color: #c8e7f0;
+}
+footer a {
+  color: #c8e7f0;
+}
+.line-container {
+  width: 240px;
+  margin: auto;
+}
+.line {
+  height: 2px;
+  background-color: #c8e7f0;
+  margin: 2rem;
+}
+.copy {
+  color: #c8e7f0;
+  font-size: 0.8rem;
+}
